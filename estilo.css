@@ -89,7 +89,7 @@ body{
     width: fit-content;
     padding: 5px 40px;
     border: 2px solid #2a0468;
-    color: #fff;
+    color: #ffffff;
     background:linear-gradient(to right, #0d0935, #120172);
     transition: .1s;
     cursor: pointer;
@@ -120,30 +120,30 @@ body{
     padding: 0 20px;
     position: relative;
     top: -170px;
-    z-index: 10;
+    z-index: 20;
 }
 .servicios .fila{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 .servicios .fila .col{
     text-align:center;
     width: 30%;
 }
 .servicios .fila .col .card{
-    border: 1px solid #8d8d8d;
-    height: 520px;
-    background-color: #fdfdfd;
+    border: 1px solid #1b02aa;
+    height: 500px;
+    background-color: #050435;
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
 }
 .servicios .icono{
     width: 70px;
     height: 70px;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,11 +153,11 @@ body{
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    border: 3px solid #fff;
+    border: 4px solid #686b69;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #b4aeae;
     font-size: 20px;
 }
 .color1{
@@ -173,7 +173,7 @@ body{
     margin-bottom: 20px;
 }
 .servicios .card p{
-    color: #8d8d8d;
+    color: #faf6f6;
     line-height: 28px;
     font-size: 12px;
 }
@@ -187,7 +187,7 @@ body{
 }
 /* seccion HABILIDADES */
 .habilidades{
-    background:linear-gradient(to right, #000003, #394752);
+    background:linear-gradient(to right, #000000, #394752);
     color: #cec5ee;
     padding: 60px 0;
     position: relative;
@@ -358,7 +358,7 @@ body{
     border: 2px solid;
     color: #fff;
     cursor: pointer;
-    background: linear-gradient(to right, #ff5b00, #ff9900);
+    background: linear-gradient(to right, #1b130f, #3e301c);
 }
 
 footer{
@@ -372,10 +372,10 @@ footer{
 /* SECCION RESPONSIVE */
 @media screen and (max-width:1180px){
     .inicio{
-        clip-path: none;
+        clip-path: polygon(100% 0, 100% 74%, 50% 96%, 0 84%, 0 0);
     }
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:950px){
     .redes{
         display: none;
     }
@@ -395,6 +395,7 @@ footer{
         align-items: center;
         justify-content: center;
         z-index: 99;
+        
     }
     #nav.responsive a{
         font-size: 30px;
@@ -410,19 +411,19 @@ footer{
         display: block;
     }
     .inicio .fila .col{
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
     .inicio .fila .col h2{
         margin-top: 20px;
     }
     .inicio .fila .col .contenedor-img{
-        width: 50%;
+        width: 60%;
         margin-top: 30px;
     }
 
     .servicios{
-        position: static;
+        position:static;
         padding: 20px;
     }
     .servicios .fila{
